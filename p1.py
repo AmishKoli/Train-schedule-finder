@@ -22,3 +22,5 @@ class IRCTC:
         for i in data['Route']:
             print(i['StationName'],'||',i['ArrivalTime'],'||',i['DepartureTime'],"||",i['Distance'])
 obj=IRCTC()
+#indian railways se api use kiya
+#json viewer se dat ko samja
